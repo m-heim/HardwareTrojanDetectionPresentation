@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.15)  15 MAY 2022 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.15)  15 MAY 2022 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,21 +715,21 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 39.
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 51.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 53.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [4
 
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 69.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 74.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [5
 
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 74.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 79.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [6
 
@@ -750,13 +750,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 Here is how much of TeX's memory you used:
  22615 strings out of 478276
  439398 string characters out of 5853013
- 712942 words of memory out of 5000000
+ 714942 words of memory out of 5000000
  40355 multiletter control sequences out of 15000+600000
  471376 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,104p,506b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on presentation.pdf (6 pages, 63745 bytes).
+Output written on presentation.pdf (6 pages, 63766 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
