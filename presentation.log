@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.15)  14 MAY 2022 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.15)  15 MAY 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,7 +691,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav)
-<1200px-Hsas_logo.svg.png, id=62, 200.75pt x 70.2625pt>
+<1200px-Hsas_logo.svg.png, id=70, 200.75pt x 70.2625pt>
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
 Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 23.
@@ -722,14 +722,14 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 51.
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 57.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 69.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [5
 
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 62.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 74.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [6
 
@@ -745,21 +745,21 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 62.
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: A620DE48CE9F5E568F717BAC9F9A8C6C;526.
+(rerunfilecheck)             Checksum: 1BDE5A5560BB46FF2D7BBD0A0B8849A8;871.
  ) 
 Here is how much of TeX's memory you used:
- 22570 strings out of 478276
- 438195 string characters out of 5853013
- 713939 words of memory out of 5000000
- 40312 multiletter control sequences out of 15000+600000
- 471071 words of font info for 34 fonts, out of 8000000 for 9000
+ 22615 strings out of 478276
+ 439398 string characters out of 5853013
+ 712942 words of memory out of 5000000
+ 40355 multiletter control sequences out of 15000+600000
+ 471376 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,104p,506b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on presentation.pdf (6 pages, 62182 bytes).
+Output written on presentation.pdf (6 pages, 63745 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
