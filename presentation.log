@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.15)  15 MAY 2022 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.17)  11 JUN 2022 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/heimmaxi/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
-(/home/heimmaxi/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
+**/home/max/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
+(/home/max/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
 (/usr/share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -535,7 +535,7 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
 )) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count335
 \l__pdf_internal_box=\box75
 ) (./presentation.aux)
@@ -748,15 +748,15 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 1BDE5A5560BB46FF2D7BBD0A0B8849A8;871.
  ) 
 Here is how much of TeX's memory you used:
- 22615 strings out of 478276
- 439398 string characters out of 5853013
- 714942 words of memory out of 5000000
- 40355 multiletter control sequences out of 15000+600000
+ 22637 strings out of 478238
+ 440104 string characters out of 5850456
+ 715075 words of memory out of 5000000
+ 40408 multiletter control sequences out of 15000+600000
  471376 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,20n,104p,506b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,20n,104p,501b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on presentation.pdf (6 pages, 63766 bytes).
+Output written on presentation.pdf (6 pages, 64389 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
