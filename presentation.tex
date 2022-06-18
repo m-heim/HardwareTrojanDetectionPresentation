@@ -32,11 +32,15 @@
     \frametitle{Was sind Hardware Trojaner?}
     \begin{enumerate}
     \item Bösartige Modifikation eines Integrierten Schaltkreises
-    \item Besteht aus einem Trigger und einer Payload
-    \item Triggers: Time bombs, cominational, analog \dots
-    \item Payloads: Denial of service, extraction of information, keys
+    \item Besteht aus einem Trigger (Time bombs, cominational...) und einer Payload (Denial of service, extraction of information, keys)
     \end{enumerate}
+    \begin{figure}
+        \caption{Theoretischer Aufbau eines HW Trojaners}
+        \includegraphics[width=0.5\textwidth]{triggerpayload.png}
+        \label{trpl}
+    \end{figure}
 \end{frame}
+
 \subsection{Relevanz}
 \begin{frame}
     \frametitle{Warum ist es wichtig diese zu erkennen?}
@@ -49,7 +53,6 @@
     \item Transport
     \item U.v.m \ldots
     \end{itemize}
-
 \end{frame}
 
 
@@ -58,24 +61,69 @@
 \begin{frame}
     \frametitle{Reverse Engineering}
     \begin{itemize}
-        \item Entfernen der Oberfläche Schicht für Schicht
-        \item Advantages: 
+        \item Entfernen der Oberfläche Schicht für Schicht, vergleich mit Golden Sample
+        \item Vorteile: 
         \begin{enumerate}
-            \item 100 \% detection rate
+            \item 100 \% Erkennungsrate mit passendem Equipment
         \end{enumerate}
-        \item Disadvantages:
+        \item Nachteile:
         \begin{enumerate}
-            \item Only tests a single chip
-            \item Chip unusable afterwards
-            \item Very time consuming
+            \item Testet nur einen Chip
+            \item Chip ist danach kaputt
+            \item Sehr zeitaufwändig
         \end{enumerate}
-        \item However, 
     \end{itemize}
 \end{frame}
 \subsection{Nicht-Destruktive Erkennung}
-\section{Conclusion}
 \begin{frame}
-    \frametitle{Types of detection}
+    \frametitle{Funktionstests}
+    \begin{itemize}
+        \item Beobachten der Ausgabe bei bestimmten Eingängen und Vergleich dieser mit Golden Sample
+        \item Problem: Trigger sehr spezifisch, daher wird hier zum Teil auch mit Fuzzing gearbeitet
+        \item Vorteile:
+        \begin{enumerate}
+            \item Sehr einfacher Testaufbau
+            \item Hohe Erkennungsrate
+            \item Hunderte IC's können parallel getestet werden
+        \end{enumerate}
+        \item Nachteile:
+        \begin{enumerate}
+            \item Je nach Komplexität des IC's sehr zeitaufwändig/unmöglich
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Seitenkanaltest}
+    \begin{itemize}
+        \item Beobachten der Leistungsaufnahme/Pfadverzögerung des IC's und Vergleich dieser mit dessen eines Golden Samples
+        \item Vorteile:
+        \begin{enumerate}
+            \item Erkennung ohne Aktivierung
+            \item Sehr einfacher Testaufbau
+            \item Hohe Erkennungsrate
+            \item Hunderte IC's können parallel getestet werden
+        \end{enumerate}
+        \item Nachteile:
+        \begin{enumerate}
+            \item Produktionsvariationen
+            \item Bei sehr kleinen Trojanern kann die Leakage sehr klein werden
+        \end{enumerate}
+        \item D. Agrawal und andere stellen in “Trojan detection using IC fingerprinting” das Konzept von IC Fingerprinting vor. Hier wird basierend auf einem oder mehreren Seitenkanälen ein Fingerabdruck erzeugt der Trojaner mit einem Flächeanteil von 0.01 \% erkennt.
+    \end{itemize}
+\end{frame}
+
+\section{Fazit}
+\begin{frame}
+    \frametitle{Fazit}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Quellen}
+    \begin{itemize}
+    \item \url{https:/d/dl.acm.org/doi/pdf/10.1145/2906147}
+    \item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5340158}
+    \end{itemize}
 \end{frame}
 
 \end{document}

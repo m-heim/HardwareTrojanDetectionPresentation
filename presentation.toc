@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Hardware Trojans}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Relevance}{4}{0}{1}
-\beamer@sectionintoc {2}{Detection}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Destructive detection}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{Nondestructive detection}{6}{0}{2}
-\beamer@sectionintoc {3}{Conclusion}{6}{0}{3}
+\beamer@subsectionintoc {1}{2}{Relevanz}{4}{0}{1}
+\beamer@sectionintoc {2}{Erkennung}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Destruktive Erkennung}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nicht-Destruktive Erkennung}{6}{0}{2}
+\beamer@sectionintoc {3}{Fazit}{8}{0}{3}

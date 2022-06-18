@@ -10,25 +10,31 @@
 \headcommand {\slideentry {1}{1}{1}{3/3}{Hardware Trojans}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Relevance}}
-\headcommand {\slideentry {1}{2}{1}{4/4}{Relevance}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Relevanz}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Relevanz}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\beamer@sectionpages {3}{4}}
 \headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\sectionentry {2}{Detection}{5}{Detection}{0}}
+\headcommand {\sectionentry {2}{Erkennung}{5}{Erkennung}{0}}
 \headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Destructive detection}}
-\headcommand {\slideentry {2}{1}{1}{5/5}{Destructive detection}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Destruktive Erkennung}}
+\headcommand {\slideentry {2}{1}{1}{5/5}{Destruktive Erkennung}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Nondestructive detection}}
-\headcommand {\beamer@sectionpages {5}{5}}
-\headcommand {\beamer@subsectionpages {6}{5}}
-\headcommand {\sectionentry {3}{Conclusion}{6}{Conclusion}{0}}
-\headcommand {\slideentry {3}{0}{1}{6/6}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Nicht-Destruktive Erkennung}}
+\headcommand {\slideentry {2}{2}{1}{6/6}{Nicht-Destruktive Erkennung}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\slideentry {2}{2}{2}{7/7}{Nicht-Destruktive Erkennung}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@sectionpages {5}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\sectionentry {3}{Fazit}{8}{Fazit}{0}}
+\headcommand {\slideentry {3}{0}{1}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {3}{0}{2}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\beamer@sectionpages {8}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\gdef \inserttotalframenumber {9}}
