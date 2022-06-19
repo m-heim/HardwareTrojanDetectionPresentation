@@ -31,11 +31,11 @@
 \subsection{Hardware Trojans}
 \begin{frame}
     \frametitle{Was sind Hardware Trojaner?}
-    \begin{enumerate}
+    \begin{itemize}
     \item Bösartige Modifikation eines Integrierten Schaltkreises
     \item Trigger (Time bombs, cominational...)
-    \item Payload (Denial of service, extraction of information, keys)
-    \end{enumerate}
+    \item Payload (Denial of service, keys\ldots)
+    \end{itemize}
     \begin{figure}
         \caption{Theoretischer Aufbau eines HW Trojaners}
         \includegraphics[width=0.5\textwidth]{triggerpayload.png}
@@ -59,8 +59,8 @@
             \item Testet nur einen Chip
             \item Destruktiv
             \item Zeitaufwändig
-            \item Unclonable functions
         \end{enumerate}
+        \item Jedoch: Sinnvoll in Kombination mit anderen Verfahren
     \end{itemize}
 \end{frame}
 \section{Nicht-Destruktive Detektion}
@@ -73,7 +73,7 @@
         \item Vorteile:
         \begin{enumerate}
             \item Sehr einfacher Testaufbau
-            \item Hohe Erkennungsrate
+            \item Bei bekannten Testvektoren $\rightarrow$ 100 \% Erkennungsrate
             \item Hunderte IC's können parallel getestet werden
         \end{enumerate}
         \item Nachteile:
@@ -88,7 +88,7 @@
         \item R.S. Chakraborty et al, "MERO: A Statistical Approach for Hardware Trojan Detection"
         \item \url{https://link.springer.com/content/pdf/10.1007/978-3-642-04138-9_28.pdf}
         \item Netzliste $\rightarrow$ Testvektoren
-        \item Vektoren werden N mal getestet
+        \item Vektoren werden N mal getestet (Kombinatorisch-sequentielle HW Trojaner)
         \item Reduktion der Testzeit um 85 \%
     \end{itemize}
 \end{frame}
@@ -117,11 +117,11 @@
         \item D. Agrawal et al, "Trojan Detection using IC Fingerprinting"
         \item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4223234}
         \begin{enumerate}
-            \item Select random ICs
-            \item Run IO tests, record traces
-            \item Build fingerprint
-            \item Destructively test for HW Trojan
-            \item Match Sidechannel fingerprint of ICs to test with those of the reference
+            \item Auswahl zufälliger Schaltkreise
+            \item Aufnahme von Power Traces
+            \item Fingerprint erzeugen
+            \item Destruktives Reverse Engineering der Chips
+            \item Vergleiche Fingerprints von zu testenden Chips mit Referenz
         \end{enumerate}
     \end{itemize}
 \end{frame}
@@ -146,14 +146,15 @@
         \item Wie man sieht: Die Verfahren ergänzen sich $\rightarrow$ Kombination beider Verfahren
     \end{itemize}
 \end{frame}
-
+\section*{Quellen}
 \begin{frame}
     \frametitle{Quellen}
     \begin{itemize}
     \item \url{https:/d/dl.acm.org/doi/pdf/10.1145/2906147}
     \item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5340158}
     \item \url{https://www.fkie.fraunhofer.de/content/dam/fkie/de/documents/HWT-Bericht/HWT-Bericht_Cover.pdf}
-    \end{itemize}
+    \item \url{https://en.wikipedia.org/wiki/Hardware_Trojan} 
+\end{itemize}
 \end{frame}
 
 \end{document}

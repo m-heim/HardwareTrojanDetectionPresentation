@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.17)  19 JUN 2022 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.17)  19 JUN 2022 22:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,7 +704,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav)
-<1200px-Hsas_logo.svg.png, id=67, 200.75pt x 70.2625pt>
+<1200px-Hsas_logo.svg.png, id=72, 200.75pt x 70.2625pt>
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
 Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 24.
@@ -719,7 +719,7 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 28.
  [2
 
 ]
-<triggerpayload.png, id=166, 374.39874pt x 251.94125pt>
+<triggerpayload.png, id=173, 374.39874pt x 251.94125pt>
 File: triggerpayload.png Graphic file (type png)
 <use triggerpayload.png>
 Package pdftex.def Info: triggerpayload.png  used on input line 44.
@@ -738,6 +738,14 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 65.
  [4
 
 ]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
 Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 84.
@@ -745,14 +753,6 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 84.
  [5
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
 Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 94.
@@ -783,7 +783,7 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 148.
 ]
 File: 1200px-Hsas_logo.svg.png Graphic file (type png)
 <use 1200px-Hsas_logo.svg.png>
-Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 157.
+Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 158.
 (pdftex.def)             Requested size: 42.67912pt x 14.9378pt.
  [10
 
@@ -799,21 +799,21 @@ Package pdftex.def Info: 1200px-Hsas_logo.svg.png  used on input line 157.
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 0BD8D32DE77BEB6875EA328DA39CA4A5;643.
+(rerunfilecheck)             Checksum: B574DCC06F024E4067C6CD9E61F440CE;721.
  ) 
 Here is how much of TeX's memory you used:
- 22817 strings out of 478238
- 442708 string characters out of 5850456
+ 22829 strings out of 478238
+ 442695 string characters out of 5850456
  721392 words of memory out of 5000000
- 40560 multiletter control sequences out of 15000+600000
- 476350 words of font info for 54 fonts, out of 8000000 for 9000
+ 40569 multiletter control sequences out of 15000+600000
+ 479707 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,104p,501b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentation.pdf (10 pages, 113035 bytes).
+Output written on presentation.pdf (10 pages, 113952 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
- 27 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

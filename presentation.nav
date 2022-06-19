@@ -30,10 +30,13 @@
 \headcommand {\sectionentry {4}{Fazit}{9}{Fazit}{0}}
 \headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{0}{2}{10/10}{}{0}}
+\headcommand {\beamer@sectionpages {9}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\sectionentry {5}{Quellen}{10}{Quellen}{0}}
+\headcommand {\slideentry {5}{0}{1}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@partpages {1}{10}}
-\headcommand {\beamer@subsectionpages {9}{10}}
-\headcommand {\beamer@sectionpages {9}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@sectionpages {10}{10}}
 \headcommand {\beamer@documentpages {10}}
 \headcommand {\gdef \inserttotalframenumber {10}}
