@@ -7,6 +7,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{tabularx}
 %\usepackage{circuitikz}
 \author{Maximilian Heim}
 \title{Hardware Trojan Detection}
@@ -32,7 +33,8 @@
     \frametitle{Was sind Hardware Trojaner?}
     \begin{enumerate}
     \item Bösartige Modifikation eines Integrierten Schaltkreises
-    \item Besteht aus einem Trigger (Time bombs, cominational...) und einer Payload (Denial of service, extraction of information, keys)
+    \item Trigger (Time bombs, cominational...)
+    \item Payload (Denial of service, extraction of information, keys)
     \end{enumerate}
     \begin{figure}
         \caption{Theoretischer Aufbau eines HW Trojaners}
@@ -41,45 +43,33 @@
     \end{figure}
 \end{frame}
 
-\subsection{Relevanz}
+\section{Destruktive Detektion}
 \begin{frame}
-    \frametitle{Warum ist es wichtig diese zu erkennen?}
+    \frametitle{Destruktives Reverse Engineering}
     \begin{itemize}
-    \item Militär
-    \item Finanzen
-    \item Energie
-    \item Geheimdienste
-    \item Überwachungsstaaten
-    \item Transport
-    \item U.v.m \ldots
-    \end{itemize}
-\end{frame}
-
-
-\section{Erkennung}
-\subsection{Destruktive Erkennung}
-\begin{frame}
-    \frametitle{Reverse Engineering}
-    \begin{itemize}
-        \item Entfernen der Oberfläche Schicht für Schicht, vergleich mit Golden Sample
+        \item Entfernen der Oberfläche
+        \item Visuelle Inspektion
+        \item Vergleich mit Golden Sample
         \item Vorteile: 
         \begin{enumerate}
-            \item 100 \% Erkennungsrate mit passendem Equipment
+            \item 100 \% Erkennungsrate
         \end{enumerate}
         \item Nachteile:
         \begin{enumerate}
             \item Testet nur einen Chip
-            \item Chip ist danach kaputt
-            \item Sehr zeitaufwändig
+            \item Destruktiv
+            \item Zeitaufwändig
+            \item Unclonable functions
         \end{enumerate}
     \end{itemize}
 \end{frame}
-\subsection{Nicht-Destruktive Erkennung}
+\section{Nicht-Destruktive Detektion}
 \begin{frame}
     \frametitle{Funktionstests}
     \begin{itemize}
-        \item Beobachten der Ausgabe bei bestimmten Eingängen und Vergleich dieser mit Golden Sample
-        \item Problem: Trigger sehr spezifisch, daher wird hier zum Teil auch mit Fuzzing gearbeitet
+        \item Beobachten der Ausgabe bei bestimmten Eingängen
+        \item Vergleich mit Golden Sample
+        \item Problem: Großer Trojan Space
         \item Vorteile:
         \begin{enumerate}
             \item Sehr einfacher Testaufbau
@@ -92,11 +82,21 @@
         \end{enumerate}
     \end{itemize}
 \end{frame}
+\begin{frame}
+    \frametitle{Funktionstests: Statistischer Ansatz}
+    \begin{itemize}
+        \item R.S. Chakraborty et al, "MERO: A Statistical Approach for Hardware Trojan Detection"
+        \item \url{https://link.springer.com/content/pdf/10.1007/978-3-642-04138-9_28.pdf}
+        \item Netzliste $\rightarrow$ Testvektoren
+        \item Vektoren werden N mal getestet
+        \item Reduktion der Testzeit um 85 \%
+    \end{itemize}
+\end{frame}
 
 \begin{frame}
     \frametitle{Seitenkanaltest}
     \begin{itemize}
-        \item Beobachten der Leistungsaufnahme/Pfadverzögerung des IC's und Vergleich dieser mit dessen eines Golden Samples
+        \item Beobachten der Leistungsaufnahme/Pfadverzögerung \item Vergleich mit Golden Sample
         \item Vorteile:
         \begin{enumerate}
             \item Erkennung ohne Aktivierung
@@ -109,13 +109,42 @@
             \item Produktionsvariationen
             \item Bei sehr kleinen Trojanern kann die Leakage sehr klein werden
         \end{enumerate}
-        \item D. Agrawal und andere stellen in “Trojan detection using IC fingerprinting” das Konzept von IC Fingerprinting vor. Hier wird basierend auf einem oder mehreren Seitenkanälen ein Fingerabdruck erzeugt der Trojaner mit einem Flächeanteil von 0.01 \% erkennt.
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    \frametitle{Seitenkanaltest: Fingerprinting}
+    \begin{itemize}
+        \item D. Agrawal et al, "Trojan Detection using IC Fingerprinting"
+        \item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4223234}
+        \begin{enumerate}
+            \item Select random ICs
+            \item Run IO tests, record traces
+            \item Build fingerprint
+            \item Destructively test for HW Trojan
+            \item Match Sidechannel fingerprint of ICs to test with those of the reference
+        \end{enumerate}
     \end{itemize}
 \end{frame}
 
 \section{Fazit}
 \begin{frame}
     \frametitle{Fazit}
+    \begin{itemize}
+        \item Destruktive Detektion ungeeignet für Testen von ICs die verwendet werden sollen
+        \item Gegenüberstellung von Funktionstests und Seitenkanaltests:
+    \end{itemize}
+    \begin{tabular}{|m{1cm}|m{4.2cm}|m{4.2cm}|}
+        \hline
+         & Funktionstests & Seitenkanaltests \\
+        \hline
+        Pros & 1. Effektiv für kleine Trojaner \newline 2.Produktionstoleranz unabhängig & 1.Effektiv für große Trojaner \newline 2. einfache Testerzeugung \\
+        \hline
+        Cons & 1. Testerzeugung komplex & 1. Anfällig für Produktionstoleranzen \newline 2. Detektion von kleinen Trojanern schwierig\\
+        \hline
+    \end{tabular}
+    \begin{itemize}
+        \item Wie man sieht: Die Verfahren ergänzen sich $\rightarrow$ Kombination beider Verfahren
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -123,6 +152,7 @@
     \begin{itemize}
     \item \url{https:/d/dl.acm.org/doi/pdf/10.1145/2906147}
     \item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5340158}
+    \item \url{https://www.fkie.fraunhofer.de/content/dam/fkie/de/documents/HWT-Bericht/HWT-Bericht_Cover.pdf}
     \end{itemize}
 \end{frame}
 
