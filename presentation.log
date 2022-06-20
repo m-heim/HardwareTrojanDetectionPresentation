@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.17)  19 JUN 2022 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.18)  20 JUN 2022 08:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/max/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
-(/home/max/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
+**/home/heimmaxi/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
+(/home/heimmaxi/workspace/hwtrojan/HardwareTrojanDetectionPresentation/presentation.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -803,14 +803,14 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  22769 strings out of 478238
- 440836 string characters out of 5850456
+ 440851 string characters out of 5850456
  720045 words of memory out of 5000000
  40509 multiletter control sequences out of 15000+600000
  479707 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,20n,104p,501b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,20n,104p,506b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentation.pdf (10 pages, 110976 bytes).
+Output written on presentation.pdf (10 pages, 110809 bytes).
 PDF statistics:
  507 PDF objects out of 1000 (max. 8388607)
  450 compressed objects within 5 object streams
