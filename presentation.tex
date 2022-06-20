@@ -16,7 +16,13 @@
 \logo{\includegraphics[width=1.5cm]{1200px-Hsas_logo.svg.png}}
 \institute{University Albstadt-Sigmaringen} 
 \date{\today} 
-\subject{Hardware Cyber-Security}
+\subject{Hardware Cyber-Security}\AtBeginSection[]
+{
+    \begin{frame}
+        \frametitle{Table of Contents}
+        \tableofcontents[currentsection]
+    \end{frame}
+}
 \begin{document}
 
 \begin{frame}
@@ -44,6 +50,7 @@
 \end{frame}
 
 \section{Destruktive Detektion}
+\subsection{Destruktives Reverse Engineering}
 \begin{frame}
     \frametitle{Destruktives Reverse Engineering}
     \begin{itemize}
@@ -64,6 +71,7 @@
     \end{itemize}
 \end{frame}
 \section{Nicht-Destruktive Detektion}
+\subsection{Funktionstests}
 \begin{frame}
     \frametitle{Funktionstests}
     \begin{itemize}
@@ -92,7 +100,7 @@
         \item Reduktion der Testzeit um 85 \%
     \end{itemize}
 \end{frame}
-
+\subsection{Seitenkanaltests}
 \begin{frame}
     \frametitle{Seitenkanaltest}
     \begin{itemize}
